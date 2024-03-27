@@ -1,12 +1,16 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+import Nav from "./components/Nav.vue";
+import { RouterView } from "vue-router";
+
 </script>
 
 <template>
-  <HelloWorld/>
-  <h1 class="font-bold text-red-500">Red</h1>
+  <main>
+    <Nav></Nav>
+    <RouterView />
+
+  </main>
+
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
