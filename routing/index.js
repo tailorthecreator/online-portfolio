@@ -17,17 +17,17 @@ const router = createRouter({
     },
     {
       path: "/photo",
-      name: "Photo",
+      name: "Coolhouse Airconditioning",
       component: Photo,
     },
     {
       path: "/video",
-      name: "Video",
+      name: "Neil Felipp Luxury Brand",
       component: Video,
     },
     {
       path: "/web",
-      name: "Web",
+      name: "Makobi Jeans USA",
       component: Web,
     },
     {

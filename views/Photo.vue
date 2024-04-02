@@ -1,7 +1,24 @@
-<script setup></script>
+<script setup>
+import Card from "../src/components/Card.vue"
+</script>
 
 <template>
-  <h1>This is the Photo Page</h1>
+  <div class="text-red-900">Heyy</div>
+  <div class="flex justify-center">
+    <div class="p-8">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-10">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
+    </div>
+  </div>
 </template>
 
-<script></script>
+<style scoped></style>

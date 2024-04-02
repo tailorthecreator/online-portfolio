@@ -1,7 +1,12 @@
-<script setup></script>
+<script setup>
+
+</script>
 
 <template>
-    <h1>This is the Home Page</h1>
+    <h1 class="text-red-900 text-lg">This is some fuckshit
+
+    </h1>
 </template>
 
-<script></script>
+
+<style></style>
