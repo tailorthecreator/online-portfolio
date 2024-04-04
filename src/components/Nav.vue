@@ -14,7 +14,7 @@ import HeaderBlock from "./HeaderBlock.vue";
   <section>
     <div class="flex">
       <!-- Sidebar -->
-      <div class="sticky top-0 h-screen overflow-y-auto w-64 bg-sky-950 ">
+      <div class="sticky top-0 h-screen overflow-y-auto w-64 bg-sky-950 hidden sm:block">
         <div class="p-4 mt-20">
           <img class="mx-auto mb-5 rounded-full h-24 w-24" src="https://randomuser.me/api/portraits/lego/3.jpg"
             alt="Profile-photo">
@@ -28,15 +28,15 @@ import HeaderBlock from "./HeaderBlock.vue";
           </RouterLink>
           <RouterLink to="/photo"
             class="border rounded-lg mx-4 mt-4 block px-4 py-2 text-white hover:bg-green-200 hover:text-sky-900">
-            Project 1
+            Photography
           </RouterLink>
           <RouterLink to="/video"
-            class="border rounded-lg mx-4 mt-4 block px-4 py-2 text-white hover:bg-green-200 hover:text-sky-900">Project
-            2
+            class="border rounded-lg mx-4 mt-4 block px-4 py-2 text-white hover:bg-green-200 hover:text-sky-900">
+            Commercials
           </RouterLink>
           <RouterLink to="/web"
-            class="border rounded-lg mx-4 mt-4 block px-4 py-2 text-white hover:bg-green-200 hover:text-sky-900">Project
-            3
+            class="border rounded-lg mx-4 mt-4 block px-4 py-2 text-white hover:bg-green-200 hover:text-sky-900">
+            Websites
           </RouterLink>
         </ul>
 
