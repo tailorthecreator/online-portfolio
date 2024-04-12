@@ -3,7 +3,6 @@ import Card from "../src/components/Card.vue"
 </script>
 
 <template>
-  <div class="text-red-900">Heyy</div>
   <div class="w-full mx-w-5xl p-5 pb-10 mx-auto mb-10 gap-5 lg:columns-3 space-y-5">
     <img src="../src/assets/photo-1.jpg" alt="Logo 2">
     <img src="../src/assets/photo-2.jpg" alt="Logo 2">

@@ -1,20 +1,25 @@
 <script setup>
 import Testimonial from "../src/components/Testimonial.vue";
+import { RouterLink } from "vue-router";
+
 
 </script>
 
 <template>
-
     <main>
-
+        <div class=" flex justify-end bg-gray-900">
+            <RouterLink to="/HomeJap" class="btn my-2 mx-4">
+                Translate to Japanese 🇯🇵
+            </RouterLink>
+        </div>
         <!--Hero Section-->
-        <section class="bg-stone-300 z-0">
+        <section class="bg-gray-900 z-0">
             <div class="grid max-w-screen-xl px-4 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mx-20">
                 <div class="mr-auto place-self-center lg:col-span-7">
                     <h1
-                        class="max-w-2xl  text-stone-700 mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
+                        class="max-w-2xl  text-green-300 mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
                         Taishi Arai </h1>
-                    <p class="max-w-2xl mb-6 font-light text-slate-800 lg:mb-8 text-xs">
+                    <p class="max-w-2xl mb-6 font-light text-white lg:mb-8 text-xs">
                         Front End Engineer / Photo & Video Production</p>
 
                 </div>
@@ -27,7 +32,7 @@ import Testimonial from "../src/components/Testimonial.vue";
 
 
         <!--Tech stacks-->
-        <section class="p-4 lg:mx-40 mt-20">
+        <section class="p-4 lg:mx-40 mt-20 ">
             <p class="text-md text-stone-700 font-bold mb-4 text-center">Tech Stacks</p>
             <div class="grid grid-cols-4 gap-2 justify-center items-center mx-10">
                 <!-- Top row -->
@@ -78,9 +83,9 @@ import Testimonial from "../src/components/Testimonial.vue";
                     src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
                     alt="dashboard image">
                 <div class="mt-4 md:mt-0">
-                    <p class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">13 years in
+                    <p class="mb-4 text-4xl tracking-tight font-extrabold text-green-300">13 years in
                         Media Production</p>
-                    <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">From the age of 18, I
+                    <p class="mb-6 font-light text-white md:text-lg ">From the age of 18, I
                         immersed myself in the dynamic world of nightlife photography, honing my skills amidst the
                         vibrant energy of nightclubs. As my expertise flourished, I transitioned to the high seas,
                         spending a year and a half as a photographer aboard a cruise ship. At 22, driven by my passion
@@ -94,10 +99,10 @@ import Testimonial from "../src/components/Testimonial.vue";
                 class="gap-8 items-center py-8 px-4 lg:mx-40 max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
                 <div class="mt-4 md:mt-0 md:text-right">
                     <!-- Align content to the right for medium screens and above -->
-                    <p class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">5+ years as
+                    <p class="mb-4 text-4xl tracking-tight font-extrabold text-green-300">5+ years as
                         a<br>
                         Shopify Developer</p>
-                    <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">While balancing my
+                    <p class="mb-6 font-light text-white md:text-lg">While balancing my
                         photography work during nights and weekends, I also took on the role of Digital Marketer for a
                         clothing line. In this capacity, I was tasked with developing an online webshop. Leveraging
                         Shopify as my CMS, I successfully crafted a high-performing website that experienced remarkable
@@ -113,9 +118,19 @@ import Testimonial from "../src/components/Testimonial.vue";
                     alt="dashboard image"> <!-- Align image to the right for dark mode and small screens -->
             </div>
         </section>
+        <div class="mx-20 lg:mx-40 my-20">
+            <img class="rotatein hidden dark:block w-80 mx-auto my-20" src="../src/assets/circle-photo.png"
+                alt="dashboard image">
+
+            <p class="text-center text-2xl font-bold mb-5">How I found my calling</p>
+            <p class="text-center ">In the aftermath of the pandemic, I reevaluated my career. Running a digital
+                marketing agency for
+                four years had been fulfilling, offering numerous opportunities, but I felt a deeper pull towards
+                technology. This introspection led me to coding—a field I embraced with passion despite starting
+                past 30. Now, coding isn't just a profession; it's a mission to contribute to something greater than
+                myself, marking a profound shift in my life's trajectory.</p>
+        </div>
         <Testimonial></Testimonial>
-
-
     </main>
 
 </template>
@@ -192,5 +207,30 @@ p {
         margin-left: 0px;
         opacity: 1;
     }
+}
+
+.rotatein {
+    animation: rotater 1s linear both;
+    /* corrected animation property */
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
+}
+
+@keyframes rotater {
+    from {
+        margin-right: calc(50% - 100px);
+        opacity: 0;
+        transform: rotate(-180deg);
+    }
+
+    to {
+        margin-right: calc(50% - 130px);
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
+
+.btn {
+    @apply inline-block px-4 py-2 text-slate-900 bg-green-200 hover:bg-green-300 hover:text-sky-900 rounded;
 }
 </style>
