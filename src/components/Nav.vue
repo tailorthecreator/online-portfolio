@@ -49,6 +49,8 @@ import HeaderBlock from "./HeaderBlock.vue";
             class="text-xs block px-4 py-2 text-green-200 hover:bg-gray-700">Contact</router-link>
         </ul>
 
+
+
       </div>
 
       <!-- Main Content -->
@@ -59,7 +61,9 @@ import HeaderBlock from "./HeaderBlock.vue";
       </div>
 
 
+
     </div>
+
 
 
   </section>

@@ -231,6 +231,6 @@ p {
 }
 
 .btn {
-    @apply inline-block px-4 py-2 text-slate-900 bg-green-200 hover:bg-green-300 hover:text-sky-900 rounded;
+    @apply inline-block px-4 py-2 text-slate-900 bg-gray-400 hover:bg-green-300 hover:text-sky-900 rounded;
 }
 </style>
