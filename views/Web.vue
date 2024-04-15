@@ -26,6 +26,10 @@
                             Designer brand located in Philippines. Many actors from around the world purchase and
                             support the brand</p>
                     </div>
+                    <button
+                        class="bg-gray-400 hover:bg-green-300 text-white font-bold py-2 px-4 rounded inline-flex items-center mt-10">
+                        Go to Project
+                    </button>
 
                 </article>
 
@@ -43,6 +47,10 @@
                             company, in 2016 this Shopify store was developed. It started off from $7000 to $150000
                             monthly.</p>
                     </div>
+                    <button
+                        class="bg-sky-950 hover:bg-green-300 text-white font-bold py-2 px-4 rounded inline-flex items-center mt-10">
+                        Go to Project
+                    </button>
 
                 </article>
 
@@ -60,6 +68,10 @@
                             airconditioning cleaning company that I
                             am currently building. Written in PHP.</p>
                     </div>
+                    <button
+                        class="bg-sky-950 hover:bg-green-300 text-white font-bold py-2 px-4 rounded inline-flex items-center mt-10">
+                        Go to Project
+                    </button>
 
                 </article>
 
@@ -76,6 +88,10 @@
                         <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This website was build using VueJS
                             for showcasing my recent creative portfolio, including Photo, Video, and Web.</p>
                     </div>
+                    <button
+                        class="bg-sky-950 hover:bg-green-300 text-white font-bold py-2 px-4 rounded inline-flex items-center mt-10">
+                        Go to Project
+                    </button>
 
                 </article>
 

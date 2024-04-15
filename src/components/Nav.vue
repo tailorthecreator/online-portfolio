@@ -16,8 +16,7 @@ import HeaderBlock from "./HeaderBlock.vue";
       <!-- Sidebar -->
       <div class="sticky top-0 h-screen overflow-y-auto w-64 bg-sky-950 hidden sm:block">
         <div class="p-4 mt-20">
-          <img class="mx-auto mb-5 rounded-full h-24 w-24" src="https://randomuser.me/api/portraits/lego/3.jpg"
-            alt="Profile-photo">
+          <img class="mx-auto mb-5 rounded-full h-24 w-24" src="https://i.imgur.com/F4UlQN2.png" alt="Profile-photo">
           <h2 class="text-white font-bold text-center">Taishi Arai</h2>
           <p class="text-green-200 text-center text-xs">creative portfolio</p>
         </div>

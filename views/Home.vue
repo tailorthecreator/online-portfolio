@@ -24,7 +24,7 @@ import { RouterLink } from "vue-router";
 
                 </div>
                 <div class="lg:mt-0 lg:col-span-5 lg:flex">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
+                    <img src="https://i.imgur.com/BZmeovs.jpeg" alt="mockup">
                 </div>
             </div>
 
@@ -77,10 +77,10 @@ import { RouterLink } from "vue-router";
             <div
                 class="gap-8 items-center py-8 px-4 lg:mx-40 max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
                 <img class=" swiperight w-full dark:hidden"
-                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
+                    src="https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="dashboard image">
                 <img class="swiperight w-full hidden dark:block"
-                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
+                    src="https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="dashboard image">
                 <div class="mt-4 md:mt-0">
                     <p class="mb-4 text-4xl tracking-tight font-extrabold text-green-300">13 years in
@@ -110,16 +110,14 @@ import { RouterLink } from "vue-router";
                         reaching $150,000 in monthly sales over a span of 4 years.</p>
 
                 </div>
-                <img class="swipeleft w-full dark:hidden justify-self-end"
-                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
+                <img class="swipeleft w-full dark:hidden justify-self-end" src="https://i.imgur.com/zIDuV1H.jpeg"
                     alt="dashboard image"> <!-- Align image to the right for dark mode and small screens -->
-                <img class="swipeleft w-full hidden dark:block justify-self-end"
-                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
+                <img class="swipeleft w-full hidden dark:block justify-self-end" src="https://i.imgur.com/zIDuV1H.jpeg"
                     alt="dashboard image"> <!-- Align image to the right for dark mode and small screens -->
             </div>
         </section>
         <div class="mx-20 lg:mx-40 my-20">
-            <img class="rotatein hidden dark:block w-80 mx-auto my-20" src="../src/assets/circle-photo.png"
+            <img class="rotatein hidden dark:block w-80 mx-auto my-20" src="https://i.imgur.com/3Bdfx8A.png"
                 alt="dashboard image">
 
             <p class="text-center text-2xl font-bold mb-5">How I found my calling</p>
