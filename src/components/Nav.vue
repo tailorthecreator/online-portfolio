@@ -42,8 +42,6 @@ import HeaderBlock from "./HeaderBlock.vue";
 
         <ul class="mt-10">
           <router-link to="/about" class="text-xs block px-4 py-2 text-green-200 hover:bg-gray-700">About</router-link>
-          <router-link to="/resume"
-            class="text-xs block px-4 py-2 text-green-200 hover:bg-gray-700">Resume</router-link>
           <router-link to="/contact"
             class="text-xs block px-4 py-2 text-green-200 hover:bg-gray-700">Contact</router-link>
         </ul>

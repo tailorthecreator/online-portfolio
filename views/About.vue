@@ -3,35 +3,44 @@
 </script>
 
 <template>
-    <div class="grid grid-cols-3 gap-4">
-        <div class="flex items-center justify-center">
-            <!-- Instagram icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-900" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M14 7H7a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M21 10.333v1.334M21 14v1.333M21 17.333V18.667" />
-                <path fill="#000" d="M12 2a10 10 0 0 0-8.66 15.496A10 10 0 1 0 12 2z" />
-                <path d="M12 6c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" />
-            </svg>
-        </div>
-        <div class="flex items-center justify-center">
-            <!-- LinkedIn icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-900" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M3 2h18v20H3V2zm9 5a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm-1 1v1h.01M11 8.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm7 9V13M13.5 15h-3m-3 0H7m6.5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-            </svg>
-        </div>
-        <div class="flex items-center justify-center">
-            <!-- Facebook icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-900" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M18 6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v12l4-4h4l2 2V6z" />
-            </svg>
-        </div>
+    <div class="lg:mx-80 mx-103 my-20">
+        <h1 class="font-bold text-2xl">About Me</h1>
+        <p class="mt-10">With a legacy rooted in entrepreneurship and a keen eye for digital innovation, I embarked on a
+            journey to
+            forge my path in the world of creativity and technology.</p>
+        <p class="mt-10">
+            Inspired by my father's multifaceted ventures in luxury retail, hospitality, and digital craftsmanship, I
+            found my calling in the art of photography and web development. At the age of 18, I embraced my passion for
+            visual storytelling, capturing the vibrant essence of Tokyo's nightlife and the intimate beauty of
+            portraiture.</p>
+        <p class="mt-10"> By honing my skills in photography and mastering the intricacies of Photoshop, I quickly
+            distinguished
+            myself in the industry. At 21, an opportunity to embark on a global voyage as a photographer aboard the
+            Royal Caribbean Voyager beckoned, offering me a year and a half of enriching experiences across continents.
+        </p>
+        <p class="mt-10"> Yet, a thirst for new horizons led me to Hollywood, where I pursued my aspirations amidst the
+            bustling
+            energy of Los Angeles. Balancing academic pursuits at UCLA with the demands of a burgeoning photography
+            career, I navigated the challenges of time management and professional growth with determination.</p>
+        <p class="mt-10"> A pivotal transition into the realm of digital marketing illuminated the transformative power
+            of my creative
+            vision. Spearheading the establishment of an online presence for a clothing company, I catalyzed a meteoric
+            rise in revenue, leveraging my expertise in photography, web design, and e-commerce platforms.</p>
+        <p class="mt-10"> Driven by a newfound passion for technology and its boundless possibilities, I founded a
+            digital marketing
+            agency upon my return to the Philippines. For four years, I empowered clients with innovative solutions,
+            seamlessly integrating compelling visuals, strategic advertising, and bespoke web development.</p>
+        <p class="mt-10"> However, a deeper exploration into the realm of IT beckoned, compelling me to pivot towards a
+            new frontier
+            of innovation. Since 2022, I have dedicated myself to mastering the intricate languages of web development,
+            embracing HTML, CSS, JavaScript, PHP, and a suite of front-end frameworks with unwavering determination.</p>
+        <p class="mt-10"> Now, poised at the intersection of creativity and technology, I embark on a new chapter with
+            boundless
+            enthusiasm. Eager to harness the potential of AI and web applications, I am primed to contribute to the
+            ever-evolving landscape of digital innovation, driven by a steadfast commitment to excellence and a
+            relentless pursuit of mastery.</p>
+
+
     </div>
 
 </template>
