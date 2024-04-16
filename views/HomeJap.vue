@@ -32,38 +32,39 @@ import Testimonial from "../src/components/Testimonial.vue";
 
 
         <!--Tech stacks-->
-        <section class="p-4 lg:mx-40 mt-20">
-            <p class="text-md text-stone-700 font-bold mb-4 text-center">Tech Stacks</p>
-            <div class="grid grid-cols-4 gap-2 justify-center items-center mx-10">
-                <!-- Top row -->
-                <div class="col-span-5 sm:col-span-1 text-center w-24 h-24">
-                    <img src="../src/assets/CSS-logolist.png" alt="Logo 1">
-                </div>
-                <div class="col-span-5 sm:col-span-1 text-center w-24 h-24">
-                    <img src="../src/assets/tailwind-logolist.png" alt="Logo 2">
-                </div>
-                <div class="col-span-5 sm:col-span-1 text-center w-24 h-24">
-                    <img src="../src/assets/JS-logolist.png" alt="Logo 3">
-                </div>
-                <div class="col-span-5 sm:col-span-1 text-center w-24 h-24">
-                    <img src="../src/assets/php-logolist.png" alt="Logo 4">
-                </div>
-                <div class="col-span-5 sm:col-span-1 text-center w-24 h-24">
-                    <img src="../src/assets/React-logolist.png" alt="Logo 5">
-                </div>
-                <!-- Bottom row -->
-                <div class="col-span-5 sm:col-span-1 text-center w-24 h-24">
-                    <img src="../src/assets/Vue-Js-logolist.png" alt="Logo 6">
-                </div>
-                <div class="col-span-5 sm:col-span-1 text-center w-24 h-24">
-                    <img src="../src/assets/Figma-logolist.png" alt="Logo 7">
-                </div>
-                <div class="col-span-5 sm:col-span-1 text-center w-24 h-24">
-                    <img src="../src/assets/sql-logolist.png" alt="Logo 8">
-                </div>
+        <section class="p-4 lg:mx-40 mt-20 ">
+            <section class="bg-sky-950 rounded-xl">
+                <div class="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
+                    <h2
+                        class="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl">
+                        Tech Stack</h2>
+                    <div
+                        class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
+                        <a href="#" class="flex justify-center items-center">
+                            <img class="rounded-xl w-28" src="../src/assets/React-logolist.png" alt="Logo 1">
 
-            </div>
+                        </a>
+                        <a href="#" class="flex justify-center items-center">
+                            <img class="rounded-xl w-28" src="../src/assets/tailwind-logolist.png" alt="Logo 1">
+                        </a>
+                        <a href="#" class="flex justify-center items-center">
+                            <img class="rounded-xl w-28" src="../src/assets/Vue-Js-logolist.png" alt="Logo 1">
+                        </a>
+
+                        <a href="#" class="flex justify-center items-center">
+                            <img class="rounded-xl w-28" src="../src/assets/php-logolist.png" alt="Logo 1">
+                        </a>
+                        <a href="#" class="flex justify-center items-center">
+                            <img class="rounded-xl w-28" src="../src/assets/JS-logolist.png" alt="Logo 1">
+                        </a>
+                        <a href="#" class="flex justify-center items-center">
+                            <img class="rounded-xl w-28" src="../src/assets/Figma-logolist.png" alt="Logo 1">
+                        </a>
+                    </div>
+                </div>
+            </section>
         </section>
+        <!--Logolist end-->
 
         <div class="mx-20 lg:mx-40 my-20">
             <p class="text-gray-900 text-center text-2xl font-bold mb-5"> 変化は唯一の恒常</p>
@@ -105,7 +106,8 @@ import Testimonial from "../src/components/Testimonial.vue";
                 <img class="swipeleft w-full dark:hidden justify-self-end" src="https://i.imgur.com/zIDuV1H.jpeg"
                     alt="dashboard image"> <!-- Align image to the right for dark mode and small screens -->
                 <img class="swipeleft w-full hidden dark:block justify-self-end" src="https://i.imgur.com/zIDuV1H.jpeg"
-                    alt="dashboard image"> <!-- Align image to the right for dark mode and small screens -->
+                    alt="dashboard image">
+                <!-- Align image to the right for dark mode and small screens -->
             </div>
         </section>
         <div class="mx-20 lg:mx-40 my-20">
